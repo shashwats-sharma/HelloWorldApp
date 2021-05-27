@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = "First App";
 
+  clickFunction(AppName: string) {
+    alert("My App Name is " + AppName);
+   }
 }
+
+
 
